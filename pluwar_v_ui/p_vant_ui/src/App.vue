@@ -1,10 +1,4 @@
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import TheWelcome from "./components/TheWelcome.vue";
-
-import EnemyBar from "./components/bar/EnemyBar.vue";
-import OwnBar from "./components/bar/OwnBar.vue";
-</script>
+<script setup></script>
 
 <template>
   <header>

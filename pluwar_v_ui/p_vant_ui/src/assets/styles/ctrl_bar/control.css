@@ -1,0 +1,34 @@
+.skill-bar {
+  background-color: #1d2458;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.skill-bar-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100px;
+  background-color: #404993;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.skill-bar-skill:hover {
+  background-color: #7fade1;
+}
+.skill-bar-skill-icon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+}
+.skill-bar-skill-name {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.skill-bar-skill-desc {
+  font-size: 12px;
+  text-align: center;
+}

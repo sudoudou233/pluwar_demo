@@ -1,0 +1,69 @@
+.health-own-bar {
+  background-color: aqua;
+}
+.health-enemy-bar {
+  background-color: #be6e6e;
+}
+
+/*血条整体格式↓*/
+.health-main {
+  height: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.health-n-l {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.health-bar {
+  display: flex;
+}
+.health-levle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+/*布局格式↑*/
+
+.health-bar-name {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.health-bar-value {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.health-bar-level {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.health-bar-name-text {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
+.health-bar-value-text {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.health-bar-level-text {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+}
