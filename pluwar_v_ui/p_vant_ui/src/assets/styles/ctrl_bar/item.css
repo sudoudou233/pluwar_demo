@@ -1,0 +1,12 @@
+.van-button.item-button {
+    background-color: #fff;/*背景色*/
+    border: 1px solid #dcdcdc;/*边框*/
+    border-radius: 4px;/*圆角*/
+    color: #333;/*字体颜色*/
+    font-size: 14px;/*字体大小*/
+    height: 36px;/*高度*/
+    line-height: 36px;/*行高*/
+    padding: 0 16px;/*内边距*/
+    text-align: center;/*文字对齐*/
+    width: 100%;/*宽度*/
+}

@@ -1,4 +1,7 @@
-<script setup></script>
+<script>
+var odiv1 = document.getElementById("Div1");
+//odiv1.append("<p>dsad</p>");
+</script>
 
 <template>
   <header>
@@ -10,6 +13,8 @@
       width="125"
       height="125"
     />
+
+    <div id="Div1"><p>dsad</p></div>
   </header>
 
   <main></main>
