@@ -1,6 +1,5 @@
-<script>
-var odiv1 = document.getElementById("Div1");
-//odiv1.append("<p>dsad</p>");
+<script setup>
+import test from "./components/battle/test.vue";
 </script>
 
 <template>
@@ -13,8 +12,7 @@ var odiv1 = document.getElementById("Div1");
       width="125"
       height="125"
     />
-
-    <div id="Div1"><p>dsad</p></div>
+    <test />
   </header>
 
   <main></main>
